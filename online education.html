@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <title>online education</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbar {
+        display: flex;
+        background: rgba(0, 0, 0, 0.582);
+
+    }
+
+    .sticky {
+        position: sticky;
+        top: 0;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .nav-list li {
+        list-style: none;
+        padding: 48px 37px;
+    }
+
+    .nav-list li a:hover {
+        text-decoration: none;
+        color: grey;
+
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .icon {
+        text-align: right;
+        margin-top: -173px;
+        margin-right: 189px;
+
+    }
+
+    .btn1 {
+        height: 210px;
+        width: 220px;
+        border: 3px solid white;
+    }
+
+    .rightnav {
+        width: 50%;
+        text-align: right;
+        margin-top: 20px;
+        border-radius: 9px;
+        margin-right: 20px;
+
+    }
+
+    .btn:hover {
+        color: yellow;
+        cursor: pointer;
+    }
+
+    .image img {
+        width: 41%;
+        height: 50%;
+        border-radius: 50px;
+        border: 2px solid black;
+        margin-left: 65px;
+    }
+
+    .full {
+        background-image: url("industry.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+
+    }
+
+    .box-main {
+        color: white;
+        margin: 20px;
+        text-align: left;
+
+    }
+
+    .big {
+
+        font-size: 30px;
+        margin-top: 300px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .small {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .button {
+        text-align: center;
+        font-size: 10px;
+        margin-right: 521px;
+    }
+
+    .subs {
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 11PX;
+        border: 2px solid white;
+        background: none;
+        color: white;
+        cursor: pointer;
+        margin-left: 31px;
+    }
+
+    .watchv {
+        font-size: 24px;
+        border-radius: 10px;
+        padding: 11px;
+        border: 2px solid white;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .btn {
+        font-size: 20px;
+        border-radius: 15px;
+        padding: 8px;
+        background: none;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .sear {
+        font-size: 19px;
+        border-radius: 13px;
+        padding: 7PX;
+    }
+
+    .rightnav {
+        margin-top: 40px;
+        margin-right: 55px;
+    }
+
+    .sec1 {
+        height: 600px;
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        max-width: 80%;
+        margin: auto;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .sec1left {
+        height: 600px;
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        max-width: 80%;
+        margin: auto;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .paras {
+        font-size: 20px;
+        padding: 0px 65px;
+        justify-content: space-evenly;
+
+    }
+    .para {
+        padding: 20px;
+    }
+
+    .head {
+
+        font-size: 30px;
+        padding: 20px;
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+
+    .thumbnail {
+        margin-top: 50px;
+    }
+
+    .thumb {
+        border: 2px solid black;
+        border-radius: 16%;
+        box-shadow: rgba(0, 0, 0, 0.637) 10px 10px;
+    }
+
+    .headp {
+        height: 1100px;
+        background-color: #ffebcd38;
+
+    }
+h2{
+    margin-top: 15px;
+}
+    .formcreate {
+        text-align: center;
+    }
+
+    .name {
+        padding: 3px;
+        margin: 15px;
+        border-radius: 10px;
+        font-size: 25px;
+        width: 600px;
+        height: 40px;
+
+    }
+    #one {
+        padding: 3px;
+        margin: 15px;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+    .con {
+        padding: 8px;
+        margin: 0px;
+        border-radius: 10px;
+        font-size: 75px;
+    }
+
+    .social {
+        margin: 40px 40px;
+    }
+
+    .social i {
+        color:rgb(102, 3, 3);
+        font-size: 30px;
+        padding: 0px 10px;
+    }
+
+    .social i:hover {
+        color: #3d3d3d;
+    }
+    footer{
+        text-align: center;
+    }
+    #btn{
+        padding: 3px;
+        margin: 15px;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+
+    @media only screen and (max-width:1260px){
+        .thumbnail{
+            margin-top: 160px;
+
+        }
+        .paras{
+            padding: -1px;
+        }
+    }
+</style>
+
+<body>
+    <section class="full">
+        <nav class="navbar sticky">
+            <ul class="nav-list">
+                <div class="image"><img src="laptop.png" alt="" height="400px" width="200px"></div>
+                <li> <a href="#home" style="font-size: 30px;">home</a></li>
+                <li><a href="#about" style="font-size: 30px;">about</a></li>
+                <li><a href="#Contact" style="font-size: 30px;">Contact</a></li>
+                <li><a href="#Services" style="font-size: 30px;">Services</a></li>
+            </ul>
+            <br>
+            <div class="rightnav">
+                <input type="text"  placeholder="search your query" class="sear">
+                <button class="btn btn-sm">Search</button>
+            </div>
+        </nav>
+        <section class="1stsection">
+            <div class="box-main">
+                <p class="big"><marquee width="60%" direction="up" height="100px">
+                  EDUCATION IS THE ONLY THING WHICH CAN CHANGE THE FUTURE OF INDIA </marquee></p>
+                <P class="small"> <marquee width="60%" direction="down" height="100px"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, corrupti eum corporis
+                    <br>
+                    voluptas dolore aliquid at hic omnis? Fugiat, modi.</marquee>
+                </P>
+
+            </div>
+            <DIV class="button">
+                <button class="subs" onclick="stopint()">subscribe</button>
+                <button class="watchv" >Watch Vedio</button>
+            </DIV>
+            <div class="icon">
+                <img src="laptop.png" alt="" style="border-radius: 100px;" class="btn1">
+            </div>
+        </section>
+    </section>
+    <section class="sec1">
+        <div class="para">
+            <p class="head">EDUCATION SYSTEM</p>
+            <P class="paras">In ancient times, India had the Gurukula system of education in which anyone who wished to
+                study went to
+                a teacher's (Guru) house and requested to be taught. If accepted as a student by the guru, he would then
+                stay at the guru's
+                place and help in all activities at home. This not only created a strong tie between the teacher and the
+                student, but also taught
+                the student everything about running a house. The guru taught everything the child wanted to learn, from
+                Sanskrit to the holy scriptures
+                and from Mathematics to Metaphysics. The student stayed as long as she wished or until the guru felt
+                that he had taught everything he
+                could teach.
+                All learning was closely linked to nature and to life, and not confined to memorizing some information.
+                The modern school system was brought to India, including the English language, originally by Lord Thomas
+                Babington Macaulay in the 1830s.
+                The curriculum was confined to “modern” subjects such as science and mathematics, and subjects like
+                metaphysics and philosophy were considered
+                unnecessary.
+                .</P>
+        </div>
+        <DIV class="thumbnail">
+            <img src="img1.png" alt="" class="thumb" height="350px" width="350px">
+        </DIV>
+    </section>
+    <section class="sec1left">
+        <div class="para">
+            <p class="head">INDIA..!!..LET'S GROW TOGETHER</p>
+            <P class="paras">
+                Empowering People to Realize their Dreams by Providing them with the Best Education to Build a Long
+                Term,
+                Duplicable, Sustainable, Profitable & Biggest Independent Business with Values & Principles.
+                Team Step was founded by Mr. Hitesh patidar. He is a Leading businessmen, Educator, Business Consultant,
+                a Successful
+                Entrepreneur and a Success icon. The headquarter is situated in mumbai and is being operated in many
+                states of India.
+
+                We aspire to go global in the time to come and serve our associates worldwide..
+
+                TEAM STEP stands for S-smart , T-training , E-entrepreneurship , P-program
+
+                INTEGRITY, COMMITMENT, EXCELLENCE, and UNITY. It has been steadfast in adhering to its business values
+                and ethics; as a result, it has earned the trust of people in India.
+
+                TEAM STEP purpose is to identify the needs of people and provide them the right business opportunities
+                that empower people
+                to realize their dreams by providing them with the Best Education to build a Long Term, Sustainable,
+                Profitable, Duplicable and Biggest
+                Independent Business with Values & principles.
+              
+                .</P>
+        </div>
+        <DIV class="thumbnail">
+            <img src="img2.png" alt="" class="thumb" height="350px" width="350px">
+        </DIV>
+    </section>
+    <section class="sec1">
+        <div class="para">
+            <p class="head">EDUCATION IS AS IMPORTANT AS FOR GIRLS ALSO</p>
+            <P class="paras">A girl’s education is an investment in her future. It’s also an investment in the future of
+                our world –
+                a thriving, peaceful and sustainable world. Education is a powerful tool in developing the full
+                potential of every child,
+                but it also helps promote understanding, respect and friendship between nations, peoples and religious
+                groups.
+
+                For all children, but especially for girls, education provide stability for today and opportunities for
+                tomorrow.
+                Learn more about the importance of female education and how you can help protect girls’ education
+                rights.
+                (1) Everyone has the right to education. Education shall be free, at least in the elementary and
+                fundamental stages. Elementary education
+                shall be compulsory. Technical and professional education shall be made generally available and higher
+                education shall be equally accessible to all on the basis of merit.
+            
+                
+            
+                
+                .</P>
+        </div>
+        <DIV class="thumbnail">
+            <img src="img3.png" alt="" class="thumb" height="350px" width="350px">
+        </DIV>
+    </section>
+    <hr>
+    <section class="headp">
+        <form action="" class="formcreate">
+            <h1 class="con">Contact us</h1>
+            <input type="text" class="name" placeholder="Enter your username" required><br><br>
+            <input type="email" class="name" placeholder="Enter your email" required><br><br>
+            <input type="number" class="name" placeholder="Enter your phone number"><br><br>
+            <i><input type="password" class="name" placeholder= "Enter your password" required ></i><br><br>
+
+            <textarea name="Enter about yourself" cols="30" rows="10" id="one" placeholder="About yourself"></textarea><br><br>
+            <button id="btn">Submit</button>
+
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <h2>copyright &copy: All Right Reserved <br><br> shrashtivarshney@gmail.com</h2>
+        <div class="social">
+            <a href="https://m.facebook.com/add.a.link/"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://www.instagram.com/"><i class="fab fa-twitter"></i></a>
+            <a href="http://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+</body>
+<script>
+    var b=document.getElementsByClassName("big");
+    var q=setInterval(function(){
+        b[0].style.color="red";
+        
+    },1000);
+    var b=document.getElementsByClassName("big");
+    var q=setInterval(function(){
+        b[0].style.color="green";
+        
+    },2000);
+    var b=document.getElementsByClassName("big");
+    var q=setInterval(function(){
+        b[0].style.color="darkorange";
+        
+    },3000);
+    var b=document.getElementsByClassName("big");
+    var q=setInterval(function(){
+        b[0].style.color="blue";
+        
+    },4000);
+    var b=document.getElementsByClassName("big");
+    var q=setInterval(function(){
+        b[0].style.color="yellow";
+        
+    },5000);
+    // var b=document.getElementsByClassName("image");
+    // var q=setInterval(function(){
+    //     b[0].style.src="image3.png";
+        
+    // },1000);
+
+</script>
+</html>
